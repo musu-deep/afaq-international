@@ -9,7 +9,7 @@ import { Search, ShieldCheck, Truck, Sparkles, AlertCircle, Wrench } from 'lucid
 import { BRANDS } from '../data';
 
 // Try to use the exact generated image. We'll fallback to a premium high-tech stock photo or high quality CSS layout if needed.
-const HERO_IMAGE_PATH = '/src/assets/images/enhanced_storefront_1783871111899.jpg';
+const HERO_IMAGE_PATH = '/images/enhanced_storefront_1783871111899.jpg';
 
 interface HeroProps {
   onSearch: (brand: string, query: string) => void;
@@ -197,12 +197,12 @@ export default function Hero({ onSearch, onSubscribeClick }: HeroProps) {
             {/* Storefront Image Frame */}
             <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden" id="hero-image-frame">
               <img
-                src="/src/assets/images/enhanced_storefront_1783871111899.jpg"
+                src="/images/enhanced_storefront_1783871111899.jpg"
                 alt="Afaq Al-Alamiya Storefront"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = '/src/assets/images/afaq_hero_banner_1783867037728.jpg';
+                  (e.currentTarget as HTMLImageElement).src = '/images/afaq_hero_banner_1783867037728.jpg';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 via-emerald-950/10 to-transparent"></div>
