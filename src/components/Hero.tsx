@@ -68,7 +68,7 @@ export default function Hero({ onSearch, onSubscribeClick }: HeroProps) {
             id="hero-tag-badge"
           >
             <Sparkles className="w-4 h-4 text-amber-500 animate-spin" style={{ animationDuration: '4s' }} />
-            <span>الرائدون في جودة وضمان زجاج السيارات بالمملكة</span>
+            <span>الرائدون في جودة زجاج السيارات بالمملكة</span>
           </motion.div>
 
           {/* Main Cinematic Headings */}
@@ -80,9 +80,9 @@ export default function Hero({ onSearch, onSubscribeClick }: HeroProps) {
               className="text-4xl sm:text-5xl lg:text-6xl font-black text-emerald-950 leading-tight font-sans"
               id="hero-title"
             >
-              دقة متناهية.. <br />
+              جودة عالية.. <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 via-emerald-700 to-emerald-900 drop-shadow-xs">
-                وزجاج يحميك كالدروع
+                لمختلف أنواع الزجاج 
               </span>
             </motion.h1>
             
@@ -107,7 +107,7 @@ export default function Hero({ onSearch, onSubscribeClick }: HeroProps) {
           >
             <h3 className="text-emerald-950 font-extrabold text-base mb-4 flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-ping"></span>
-              محرك البحث الفوري لزجاج سيارتك:
+              ابحث عن زجاج سيارتك:
             </h3>
             
             <form onSubmit={handleSearchSubmit} className="grid grid-cols-1 sm:grid-cols-3 gap-4" id="hero-search-form">
