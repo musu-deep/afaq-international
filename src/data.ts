@@ -63,7 +63,7 @@ export const GLASS_PRODUCTS: GlassProduct[] = [
     type: 'front',
     price: 1100,
     stock: 10,
-    image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600',
     features: ['مقاوم للصدمات والرمال وضغط الرياح العالي', 'تصفية وحماية فائقة من حرارة الشمس', 'مطابق لمعايير الأمان الخليجية SASO', 'ضمان ذهبي ممتد ضد الخدوش والبهتان'],
     quality: 'OEM'
   },
