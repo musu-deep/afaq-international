@@ -23,8 +23,8 @@ const INITIAL_ORDERS: Order[] = [
   {
     id: 'ORD-7811',
     customerName: 'فيصل الحربي',
-    phone: '0567890123',
-    email: 'faisal.harbi@gmail.com',
+    phone: '051234567',
+    email: '*****@ddddd.com',
     city: 'حفر الباطن (الفرع الرئيسي)',
     address: 'شارع الستين، حي البلدية',
     deliveryMethod: 'mobile_installation',
@@ -48,8 +48,8 @@ const INITIAL_ORDERS: Order[] = [
   {
     id: 'ORD-2099',
     customerName: 'سعد العتيبي',
-    phone: '0555432109',
-    email: 'saad.otb@hotmail.com',
+    phone: '0512345672',
+    email: '*******@hotmail.com',
     city: 'الرياض',
     address: 'حي الملقا، مخرج ٤',
     deliveryMethod: 'delivery_only',
@@ -76,7 +76,7 @@ const INITIAL_CUSTOM_REQUESTS: CustomRequest[] = [
   {
     id: 'REQ-101',
     customerName: 'خالد المطيري',
-    phone: '0509998887',
+    phone: '051234567',
     carMake: 'مرسيدس (Mercedes)',
     carModel: 'S-Class S500 بانوراما',
     year: 2023,
@@ -90,8 +90,8 @@ const INITIAL_CUSTOM_REQUESTS: CustomRequest[] = [
 const INITIAL_SUBSCRIPTIONS: NotificationSubscription[] = [
   {
     id: 'SUB-1',
-    email: 'abdulaziz.m@gmail.com',
-    phone: '0543210987',
+    email: '****.m@gmail.com',
+    phone: '051234567',
     brands: ['تويوتا', 'لكزس']
   }
 ];
