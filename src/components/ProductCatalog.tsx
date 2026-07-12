@@ -112,7 +112,7 @@ export default function ProductCatalog({
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4" id="catalog-section-header">
           <h2 className="text-3xl sm:text-4xl font-black text-emerald-950 font-sans flex items-center justify-center gap-3">
             <span className="w-8 h-[2px] bg-emerald-700"></span>
-            كتالوج المنتجات الفاخرة لزجاج السيارات
+            كتالوج المنتجات لزجاج السيارات
             <span className="w-8 h-[2px] bg-emerald-700"></span>
           </h2>
           <p className="text-slate-600 text-base">
