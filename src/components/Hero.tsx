@@ -224,7 +224,7 @@ export default function Hero({ onSearch, onSubscribeClick }: HeroProps) {
                 <span className="bg-amber-500/10 text-amber-800 border border-amber-500/25 text-[10px] px-2.5 py-1 rounded-lg font-black font-sans">تجهيز فوري</span>
               </div>
               <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-                صورة حية لمركز خدماتنا ومستودعاتنا بحفر الباطن. نلتزم بتوريد وتركيب زجاج السيارات المعتمد والمصنع بأحدث تقنيات مقاومة الخدوش والحرارة، مع توفير الضمان المالي والذهبي الموثق.
+                مرحباً بكم في مركز خدماتنا ومستودعاتنا بحفر الباطن. نلتزم بتوريد وتركيب زجاج السيارات المعتمد والمصنع بأحدث تقنيات مقاومة الخدوش والحرارة، مع توفير الضمان المالي والذهبي الموثق.
               </p>
             </div>
           </motion.div>
