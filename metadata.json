@@ -1,0 +1,8 @@
+{
+  "name": "آفاق العالمية لزجاج السيارات",
+  "description": "منصة تفاعلية متكاملة لعرض وبيع زجاج السيارات لشركة آفاق العالمية، مجهزة بنظام تتبع الشحنات ولوحة التحكم وتنبيهات بجديد البضائع.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
