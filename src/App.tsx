@@ -303,7 +303,7 @@ export default function App() {
               <div className="p-3 bg-amber-500/10 border border-amber-500/20 text-amber-400 rounded-xl w-12 h-12 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6" />
               </div>
-              <h3 className="text-white font-extrabold text-base">الضمان الذهبي الحقيقي</h3>
+              <h3 className="text-white font-extrabold text-base">ضمان حقيقي</h3>
               <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
                 ننفرد بتقديم ضمان ممتد لمدة 5 سنوات شامل ضد أي عيوب مصنعية أو تسريبات للهواء والمياه لنمنحك راحة بال تامة.
               </p>
