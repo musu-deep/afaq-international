@@ -96,10 +96,10 @@ export default function ProductCatalog({
 
   const getGlassTypeIcon = (type: string) => {
     switch (type) {
-      case 'front': return '🚗 [أمامي]';
-      case 'rear': return '🚘 [خلفي]';
-      case 'side': return '🚙 [جانبي]';
-      case 'sunroof': return '🌅 [فتحة سقف]';
+      case 'front': return ' [أمامي]';
+      case 'rear': return ' [خلفي]';
+      case 'side': return ' [جانبي]';
+      case 'sunroof': return ' [فتحة سقف]';
       default: return '💎';
     }
   };
